@@ -1,0 +1,13 @@
+.show-btn {
+  background-color: rgb(34, 32, 32);
+  width: 400px;
+  border-radius: 16px;
+}
+
+.row {
+  display: flex;
+}
+.endeRow {
+  display: grid;
+  grid-template-columns:200px 100px 100px;
+}

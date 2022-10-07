@@ -1,9 +1,12 @@
-
-
+import Keypoad from "./components/Keypoad"
+import DisplayContextProvider from "./contexts/DisplayContext"
+import './App.css'
 export default function App() {
     return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
+        <DisplayContextProvider>
+            <div className="App">
+                <Keypoad />
+            </div>
+        </DisplayContextProvider>
     )
 }

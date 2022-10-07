@@ -1,0 +1,23 @@
+.display {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    color:white;
+    padding:16px;
+    /*background-color: rgb(43, 39, 39);*/
+    border-radius: 20px;
+    border-style:ridge;
+    
+  }
+  
+  .result {
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  
+  .text {
+    flex: 1;
+    font-size: 1.1rem;
+  }
